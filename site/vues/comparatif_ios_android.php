@@ -16,32 +16,9 @@
 
 <body>
 
-    <nav class="transparent">
-        <div class="nav-wrapper">
-            <div class="row">
-                <div class="col s1"></div>
-                <div class="col s10">
-                    <a href="#" class="brand-logo">Mobile modeling</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <a href="#">
-                                <3</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <3 <3</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <3 <3 <3</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col s1"></div>
-            </div>
-        </div>
-    </nav>
-
+	<?php
+		include'header.php';
+	?>	
 
     <div class="container main">
         <div class="row">
@@ -65,7 +42,7 @@
                     <!-- IMAGE -->
                     <div class="row">
                         <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
-                        <div class="col s6"><img class="materialboxed" width="650" src="../img/android-vs-ios.png"></div></center>
+						<div class="col s6"><img class="materialboxed" width="650" src="../img/android-vs-ios.png"></div>
                     </div>
                     <br>
                     <center><h5>Tableau comparatif</h5></center>
@@ -149,36 +126,10 @@
         </div>
     </div>
 
-
-    <footer class="page-footer grey grey-text lighten-2 text-darken-2">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5>Pied</h5>
-                    <p>Contenu du pied de page</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5>Liens</h5>
-                    <ul>
-                        <li><a class="grey-text text-darken-2" href="#!">Lien 1</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!">Lien 2</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!">Lien 3</a></li>
-                        <li><a class="grey-text text-darken-2" href="#!">Lien 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright grey-text text-darken-1">
-            <div class="container">
-                © 2016 - LP APSIO
-            </div>
-        </div>
-    </footer>
-
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/materialize.min.js"></script>
-    <script type="text/javascript" src="../js/app.js"></script>
+	<?php
+		include 'footer.php';
+	?>	
+	
 </body>
 
 </html>
