@@ -57,4 +57,8 @@ Try the following command to check your git environment:
 - mailto:goguilefou@gmail.com[Illia Khutsichvili]
 - mailto:jbruel@gmail.com[Jean-Michel Bruel]
 - mailto:corblinmatt@gmail.com[Matthieu Corblin]
+<<<<<<< HEAD
 - mailto:lmichon31@gmail.com[Léo Michon]
+=======
+- mailto:dilon705@hotmail.com[Dilon Léautaud-Juarez]
+>>>>>>> 8e956428113be7daf3f7f10384db697030ed67a8
