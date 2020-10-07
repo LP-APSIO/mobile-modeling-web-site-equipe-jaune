@@ -1,0 +1,1 @@
+Le language UML est un language graphique utilisé dans diverses sortes de diagrammes pour caractériser des systèmes. Les principales formes de diagramme sont :
