@@ -5,12 +5,12 @@ body {
 nav {
 	background : url('../img/header_background.png') center / cover;
 	height: 250px;
-    box-shadow: none;
-    padding-top: 10px;
+	box-shadow: none;
+	padding-top: 10px;
 }
 
 h3 {
-	color: #212121; 
+	color: #212121;
 }
 
 h4 {
