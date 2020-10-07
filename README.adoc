@@ -53,6 +53,7 @@ Try the following command to check your git environment:
 
 == Contributors
 
+- mailto:eliasomari.Eo@gmail.com[Elias Omari]
 - mailto:leperlierolivier3@gmail.com[Olivier Leperlier]
 - mailto:miguel.larayrueda@gmail.com[Miguel Lara y Rueda]
 - mailto:goguilefou@gmail.com[Illia Khutsichvili]
