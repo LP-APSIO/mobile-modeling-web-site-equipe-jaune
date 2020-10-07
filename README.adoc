@@ -56,3 +56,4 @@ Try the following command to check your git environment:
 - mailto:miguel.larayrueda@gmail.com[Miguel Lara y Rueda]
 - mailto:goguilefou@gmail.com[Illia Khutsichvili]
 - mailto:jbruel@gmail.com[Jean-Michel Bruel]
+- mailto:corblinmatt@gmail.com[Matthieu Corblin]
