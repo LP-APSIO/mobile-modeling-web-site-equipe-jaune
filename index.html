@@ -10,7 +10,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
-    <title>Exemple de page</title>
+    <title>Mobile modeling</title>
 </head>
 <body>
 
@@ -19,24 +19,32 @@
             <div class="row">
                 <div class="col s1"></div>
                 <div class="col s10">
-                    <a href="#" class="brand-logo">Model modeling</a>
+                    <a href="index.html" class="brand-logo">Mobile modeling</a>
+                    <a href="#!" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#" data-template="page1.html">Comparatif</a></li>
-                        <li><a href="#" data-template="page2.html">Concept UML </a></li>
-                        <li><a href="#" data-template="page3.html">Plateforme de Développement<i  class ="matériel icônes-droit" > web </i> </a > </li>
-                        <li><a href="#" data-template="page4.html">Outils de modélisation IHM </a></li>
+                        <li><a href="vues/page1.html">Comparatif<i class="tiny material-icons right">equalizer</i></a></li>
+                        <li><a href="vues/page2.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
+                        <li><a href="vues/page3.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
+                        <li><a href="vues/page4.html">Outils de modélisation IHM<i class="material-icons right">build</i></a></li>
                     </ul>
                 </div>
                 <div class="col s1"></div>
             </div>
         </div>
+
+        <ul id="slide-out" class="side-nav">
+            <li><a href="vues/page1.html">Comparatif</a></li>
+            <li><a href="vues/page2.html">Concept UML</a></li>
+            <li><a href="vues/page3.html">Platerformes de dev</a></li>
+            <li><a href="vues/page4.html">Outils de modélisation IHM</a></li>
+        </ul>
     </nav>
 
 
     <div class="container main">
         <div class="row">
             <div class="col s12">
-                <div class="entry-content z-depth-1" data-default="page1.html">
+                <div class="entry-content z-depth-1" data-default="index.html">
                     <!-- Content -->
                     <h3 class="header center">Bienvenue</h3>
 
@@ -48,11 +56,12 @@
                                 <div class="col s12 offset-l1 m6 l5">
                                     <div class="card">
                                         <div class="card-image">
+
+                                            <a href="vues/page1.html">
                                             <img src="img/android-flat.png">
                                             <span class="card-title">Comparatif</span>
-                                        </div>
-                                        <div class="card-action">
-                                            <a href="page2.html">Comparatif</a>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
@@ -60,35 +69,34 @@
                                 <div class="col s12 m6 l5">
                                     <div class="card">
                                         <div class="card-image">
+                                            <a href="vues/page2.html">
                                             <img src="img/flat-uml.jpg">
                                             <span class="card-title">Concept UML</span>
+                                            </a>
                                         </div>
-                                        <div class="card-action">
-                                            <a href="concept.html">Concept UML</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col s12 offset-l1 m6 l5">
                                     <div class="card">
-                                        <div class="card-image">
+                                        <div class="card-image" >
+                                            <a href="vues/page3.html">
                                             <img src="img/dev-flat.png">
                                             <span class="card-title">Plateforme Dev</span>
+                                            </a>
                                         </div>
-                                        <div class="card-action">
-                                            <a href="page3.html">Platerformes développement</a>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="col s12 m6 l5">
                                     <div class="card">
                                         <div class="card-image">
+                                            <a href="vues/page4.html">
                                             <img src="img/flat-graphic.png">
-                                            <span class="card-title">Modélisation d'interface</span>
-                                        </div>
-                                        <div class="card-action">
-                                            <a href="page4.html">Outils modélisation</a>
+                                            <span class="card-title">Outils modélisation</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +113,7 @@
                                 <li class="active">
                                     <div class="collapsible-header active"><i class="material-icons">code</i>Développeurs</div>
                                     <div class="collapsible-body" style="display: none;">
-                                        <p>Elias Omari</br>Illia Ku</p>
+                                        <p>Elias Omari</br>Illia Khutsichvili</p>
                                     </div>
                                 </li>
                                 <li class="">
@@ -129,10 +137,10 @@
                                 <li class="">
                                     <div class="collapsible-header"><i class="material-icons">equalizer</i>Comparatif iOS / Android</div>
                                     <div class="collapsible-body" style="display: block;">
-                                        <p>a</br>
-                                           b </br>
-                                           c </br>
-                                           d </p>
+                                        <p>Léo Michon</br>
+                                           Miguel Lara y Rueda </br>
+                                           Antoine Sassim
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
@@ -153,10 +161,10 @@
                 <div class="col l4 offset-l2 s12">
                     <h5>Menu</h5>
                     <ul>
-                        <li><a href="page1.html">Comparatif</a></li>
-                        <li><a href="page2.html">Concept UML</a></li>
-                        <li><a href="page3.html">Platerformes de dev</a></li>
-                        <li><a href="page4.html">Outils de modélisation IHM</a></li>
+                        <li><a href="vues/page1.html">Comparatif</a></li>
+                        <li><a href="vues/page2.html">Concept UML</a></li>
+                        <li><a href="vues/page3.html">Platerformes de dev</a></li>
+                        <li><a href="vues/plateform_dev.html">Outils de modélisation IHM</a></li>
                     </ul>
                 </div>
             </div>
