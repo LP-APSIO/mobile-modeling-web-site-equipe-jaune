@@ -49,97 +49,130 @@
                 <div class="entry-content z-depth-1">
                     <!-- COMMENCEZ LA MODIFICATION ICI ! -->
                     <!-- CONTENU DE LA PAGE -->
-                    <h3>Titre principal</h3>
-                    <h4>Section avec images</h4>
+                    <h3>Outils de modélisation d'interfaces</h3>
+                    <h4>Problématique</h4>
                     <p class="flow text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in aliquet magna. Nunc dapibus lacus arcu. Etiam ut pellentesque velit, vitae luctus erat. Aliquam lobortis at ligula at bibendum. Donec lorem justo, fringilla in facilisis et, ullamcorper
-                        eu magna. Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit
-                        dictum tempor ut arcu. Aliquam risus dui, ullamcorper in pellentesque vitae, egestas tempus diam. Phasellus at felis sodales, sagittis turpis vel, tincidunt elit. Nulla facilisi. Quisque consequat tortor non diam rutrum, non molestie
-                        felis vehicula.
+                        La représentation visuelle (schématique) des interactions entre l'utilisateur et la machine permet d'organiser l'accès à toutes les fonctions qui seront proposées par l'interface, facilitant ainsi la phase de conception logicielle. Il n'existe pas, à ce jour, de diagramme "officiel" dans le langage UML (Unified Modeling Langage) propre à la modélisation des IHM. C'est pourquoi nous vous proposons un petit tour d'horizon des modèles et outils pouvant pallier cette absence. 
                     </p>
+					<br>
+					<h4>Les modèles</h4>
+                    <p class="flow text">
+                        Pour répondre à ce besoin de modélisation, de nombreux outils sont apparus afin d’apporter une aide. Plusieurs types de modélisation existent :
+                    </p>
+                    <ul class="collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header">SNI (Schéma Navigationnel d'IHM)</div>
+                            <div class="collapsible-body">
+                                <p>Le SNI est défini comme un profil UML dérivé du diagramme d’activité UML2.0. C'est un modèle de haut niveau d’abstraction permet-tant de représenter uniquement les exigences fonctionnelles, le "quoi" de l'analyse-conception. De ce fait, il est complètement indépendant de la plateforme physique et en particulier du type d’IHM envisagé pour la réalisation (Windows, Web, Mobile, Multimodal ou autres). De même, il ne représente ni les moyens d’interaction (menu déroulant, bouton poussoir,glisser-déposer...), ni les aspects matériels mis en œuvre (clavier, type d’écran, souris...) qui sont du ressort du niveau réalisation. Le premier objectif étant la construction d'une structure d'interaction respectant  la logique métier de l'application.  Par ailleurs, il ne prend pas en compte l’exécution des  traitements (calcul, accès aux données...) car c'est un diagramme centré sur l'IHM uniquement. Les modèles UML décrivent convenablement ces autres aspects.Le SNI s’appuie sur le concept d’Unité de Dialogue (UD) introduit par (Crampes, 2000)qui représente une vue élémentaire de l’interaction  homme-machine. Il  existe deux  types d’unités de dialogue, les élémentaires et les composées.
+								<br><br> <b>Représente</b> les messages échangés entre l’utilisateur et le logiciel
+								<br> <b>Prend en compte</b> le type des sorties désirées (affichage ou impression)
+								<br><br>   <b>Ne représente pas</b> les traitements réalisés par l’application (calculs, tris,accès BD ou serveurs de données, ...)
+								<br>  <b>Ne prend pas en compte</b> l’aspect temps de réponse de l’application lorsd’une sollicitation de l’utilisateur.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">Wireframing</div>
+                            <div class="collapsible-body">
+                                <p>    Le wireframe ou maquette fonctionnelle est un schéma utilisé lors de la conception d'une interface utilisateur pour définir les zones et composants qu'elle doit contenir. À partir d'un wireframe peut être réalisée l'interface proprement dite par un graphiste. La démarche de recourir à des wireframes s'inscrit dans une recherche d'ergonomie. Elle est surtout utilisée dans le cadre du développement logiciel et des sites et applications Web. Le wireframe consiste concrètement en un croquis, un collage papier ou un schéma numérique. 
+								<br> Le wireframing est une étape importante dans la création d’un site web sur mesure, qui consiste à concevoir la maquette « fonctionnelle » du site. A la différence d’une maquette graphique, un wireframe fait complètement abstraction de l’aspect graphique et design du site, pour se concentrer sur l’ergonomie. La réalisation d’une maquette fonctionnelle est une excellente occasion pour optimiser l’expérience utilisateur du site en projet. Nous avons réalisé ce guide complet afin de vous donner les clés pour réaliser une maquette fonctionnelle dans les règles de l’art.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">Diagramme d'activité</div>
+                            <div class="collapsible-body">
+                                <p>Le diagramme d’activité permet de représenter le comportement d’un système. On décompose le système pour visualiser les traitements et les cheminements des flots de données et de contrôle. Il fait partie des diagrammes qui sont adaptés à la description de cas d’utilisation. </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <br>
                     <!-- EXEMPLES D'IMAGES -->
-                    <div class="row">
+                    <!--<div class="row">
                         <!-- OBLIGATOIRE -->
                         <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
-                        <div class="col s4"><img class="materialboxed" width="650" src="../img/exemple.jpg"></div>
+                        <!--<div class="col s4"><img class="materialboxed" width="650" src="../img/exemple.jpg"></div>
                         <!-- Ici s4 représente un tiers de s12, donc un tiers de la largeur puisqu'on veut 3 images alignées -->
-                        <div class="col s4"><img class="materialboxed" width="650" src="../img/exemple.jpg"></div>
+                        <!--<div class="col s4"><img class="materialboxed" width="650" src="../img/exemple.jpg"></div>
                         <div class="col s4"><img class="materialboxed" width="650" src="../img/exemple.jpg"></div>
                     </div>
-                    <br>
-                    <h4>Section avec tableau</h4>
-                    <p class="flow text">
+                    <br>-->
+                    <h4>Les outils</h4>
+					<br>
+                    <!--<p class="flow text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in aliquet magna. Nunc dapibus lacus arcu. Etiam ut pellentesque velit, vitae luctus erat. Aliquam lobortis at ligula at bibendum. Donec lorem justo, fringilla in facilisis et, ullamcorper
                         eu magna. Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit
                         dictum tempor ut arcu. Aliquam risus dui, ullamcorper in pellentesque vitae, egestas tempus diam. Phasellus at felis sodales, sagittis turpis vel, tincidunt elit. Nulla facilisi. Quisque consequat tortor non diam rutrum, non molestie
                         felis vehicula.
-                    </p>
+                    </p>-->
                     <table>
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Android</th>
-                                <th>iOS</th>
+								<th></th>
+                                <th>Licence proposée</th>
+                                <th>Plateforme supportée</th>
+								<th>Les +</th>
+								<th>Les -</th>
                             </tr>
                         </thead>
 
                         <tbody>
                             <tr>
-                                <td><b>Destination</b></td>
-                                <td>Oui</td>
-                                <td>Oui</td>
+                                <td><b><a href="https://sourceforge.net/p/visual-sni/wiki/Home/">VisualSNI</a></b></td>
+                                <td></td>
+								<td>GPL</td>
+                                <td>Toute plateforme supportant Java</td>
+								<td>Editeur graphique spécifique de SNI. <br>Permet la génération de code. </td>
+								<td>N'est plus mis à jour depuis 2012. <br>Seulement sur Eclipse</td>
                             </tr>
                             <tr>
-                                <td><b>Matériel</b></td>
-                                <td>Oui</td>
-                                <td>Oui</td>
-                            </tr>
-                            <tr>
-                                <td><b>Modélisation</b></td>
-                                <td>Oui</td>
-                                <td>Oui</td>
-                            </tr>
+                                <td><b><a href="http://dia-installer.de/doc/index.html">Dia</a></b></td>
+                                <td></td>
+								<td>GPL</td>
+								<td>Multiplateforme</td>
+                                <td>Application permettant de produire le plus large panel de diagrammes.</td>
+								<td>Pas de génération de code. <br>Pas prévu pour le SNI</td>
+							</tr>
+							<tr>
+                                <td><b><a href="https://github.com/jgraph/drawio/wiki/Getting-Support">Draw.io</a></b></td>
+                                <td></td>
+								<td>Gratuit</td>
+                                <td>Multiplateforme</td>
+								<td>Outil de création de diagramme en ligne, large panel de diagrammes.</td>
+								<td>Pas de génération de code. <br>Pas prévu pour le SNI</td>
+							</tr>
+							<tr>
+                                <td><b><a href="https://www.microsoft.com/fr-fr/microsoft-365/visio/flowchart-software">Microsoft Visio</a></b></td>
+                                <td></td>
+								<td>Payant</td>
+                                <td>Windows</td>
+								<td>Très complet, rendu de qualité.</td>
+								<td>Payant, propriétaire.</td>
+							</tr>
+							<tr>
+                                <td><b><a href="https://balsamiq.com/">Balsamiq</a></b></td>
+                                <td></td>
+								<td>Payant</td>
+                                <td>Windows, macOS</td>
+								<td>Nombreuses interfaces(google map, wikipedia, appli mail).</td>
+								<td>Payant</td>
+							</tr>
+							<tr>
+                                <td><b><a href="https://cacoo.com/fr/">Cacoo</a></b></td>
+                                <td></td>
+								<td>Payant</td>
+                                <td>Multiplateforme</td>
+								<td>Large panel de diagrammes, en ligne.</td>
+								<td>Payant</td>
+							</tr>
                         </tbody>
                     </table>
                     <br>
-                    <h4>Section avec collapsible</h4>
-                    <p class="flow text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in aliquet magna. Nunc dapibus lacus arcu. Etiam ut pellentesque velit, vitae luctus erat. Aliquam lobortis at ligula at bibendum. Donec lorem justo, fringilla in facilisis et, ullamcorper
-                        eu magna. Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit
-                        dictum tempor ut arcu. Aliquam risus dui, ullamcorper in pellentesque vitae, egestas tempus diam. Phasellus at felis sodales, sagittis turpis vel, tincidunt elit. Nulla facilisi. Quisque consequat tortor non diam rutrum, non molestie
-                        felis vehicula.
-                    </p>
-                    <ul class="collapsible" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header"><i class="material-icons">android</i>Android</div>
-                            <div class="collapsible-body">
-                                <p>Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit dictum
-                                    tempor ut arcu.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="material-icons">phonelink_ring</i>iOS</div>
-                            <div class="collapsible-body">
-                                <p>Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit dictum
-                                    tempor ut arcu.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header"><i class="material-icons">subject</i>Autre</div>
-                            <div class="collapsible-body">
-                                <p>Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum. Fusce in lorem sit amet dui blandit dictum
-                                    tempor ut arcu.</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <br>
-                    <h4>Section avec citation</h4>
-                    <p class="flow text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in aliquet magna. Nunc dapibus lacus arcu. Etiam ut pellentesque velit, vitae luctus erat. Aliquam lobortis at ligula at bibendum. Donec lorem justo, fringilla in facilisis et, ullamcorper
-                        eu magna. Quisque tristique maximus felis vel pharetra. Vivamus in feugiat diam. Sed odio justo, scelerisque at nunc id, tempor imperdiet massa. Proin in tortor eu nulla euismod condimentum.
-                    </p>
+                    <h4>Conclusion</h4>
+                    <!--<p class="flow text">
+                        Dans le cadre d'une utilisation purement formelle, un logiciel tel que draw.io ou dia qui permettent de réaliser tous types de diagrammes sont suffisants. Si l'on souhaite l'intégrer à l'environnement de développement, il sera intéressant d'utiliser un outil spécifique comme VisualSNI qui, par exemple, permet de générer du code. 
+                    </p>-->
                     <blockquote>
-                        Qui pisse contre le vent, se rince les dents.
+                        Dans le cadre d'une utilisation purement formelle, un logiciel tel que draw.io ou dia qui permettent de réaliser tous types de diagrammes sont suffisants. Si l'on souhaite l'intégrer à l'environnement de développement, il sera intéressant d'utiliser un outil spécifique comme VisualSNI qui, par exemple, permet de générer du code. 
                     </blockquote>
                     <!-- NE MODIDIEZ RIEN APRES CE COMMENTAIRE -->
                 </div>
