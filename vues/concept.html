@@ -1,0 +1,276 @@
+<!-- COMMENCEZ LA MODIFICATION ICI ! -->
+<html>
+<head>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+
+	<link type="text/css" rel="stylesheet" href="../css/style.css" media="screen,projection" />
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8">
+	<title style="color: black;">Plateformes de développement Android</title>
+</head>
+
+<body>
+
+<nav class="transparent">
+	<div class="nav-wrapper">
+		<div class="row">
+			<div class="col s1"></div>
+			<div class="col s10">
+				<a href="../index.html" class="brand-logo" style="color: black;">Mobile modeling</a>
+				<a href="#!" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="comparatif_ios_android.html">Comparatif<i class="tiny material-icons right">equalizer</i></a></li>
+					<li><a href="concept.html">Concept UML <i class="material-icons right">swap_calls</i></a></li>
+					<li><a href="plateform_dev.html">Platerformes de dev <i class="material-icons right">web</i></a></li>
+					<li><a href="outils.html">Outils de Maquette<i class="material-icons right">build</i></a></li>
+				</ul>
+			</div>
+			<div class="col s1"></div>
+		</div>
+	</div>
+
+	<ul id="slide-out" class="side-nav">
+		<li><a href="comparatif_ios_android.html">Comparatif</a></li>
+		<li><a href="concept.html">Concept UML</a></li>
+		<li><a href="plateform_dev.html">Platerformes de dev</a></li>
+		<li><a href="outils.html">Outils de modélisation IHM</a></li>
+	</ul>
+</nav>
+<!-- CONTENU DE LA PAGE -->
+<h3>Concept</h3>
+<h4>Introduction</h4>
+<p class="flow text">
+
+Le langage UML est un language graphique utilisé dans diverses sortes de diagrammes pour caractériser des systèmes. Les principales formes de diagramme sont le diagramme de classe, le diagramme de cas d'utilisation (use case), le diagramme de déploiement, le diagramme détat, le diagramme composant, et le diagramme de sequence.
+
+</p>
+<br>
+<h4>Diagramme de classe</h4>
+<p class="flow text">
+
+
+
+Le diagramme de classe représente, comme son nom l'indique, les classes d'un projet informatique et les relations les liant, il est très utilisé en programmation orientée objet.
+
+Le nom de d'une classe, ses attributs, ainsi que ses méthodes sont placés dans un bloc et les flèches reliées au bloc déterminent ses relations avec la classe aux autres extrémités (contient, hérite, inclut... selon le type de flèche). Le niveau de protection des attributs et des méthodes est indiqué juste devant ceux-ci (+ : publique, - : privé, # : protégé, ~ : interne).
+
+Si deux classes se contiennent mutuellement comme attributs, cela est représenté par une ligne avec à chaque extrémité le nombre d'objets contenus. Cela est très utile en base de données
+
+
+</p>
+
+<div class="row"><!-- OBLIGATOIRE -->
+        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+        <div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_Class.png"></div>
+	<div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_Class2.jpg"></div>
+</div>
+
+
+<h4>Diagramme de cas d'utilisation</h4>
+<p class="flow text">
+
+
+Le diagramme de cas d'utilisation est un diagramme volontairement simple afin d'être compréhensible par un client sans connaissances informatiques.
+
+L'utilisateur du logiciel y est relié aux différentes utilisations qu'il pourrait en faire, lesquelles sont représentées par des ellipses dans le système.
+
+Les cas d'utilisation peuvent être liés à d'autres par des include ou des extend; si par exemple un cas d'utilisation peut en entraîner un autre, on les liera par un extend.
+
+Il peut y avoir plusieurs acteurs si ils ont des cas d'utilisation du logiciel différents, une flèche peut indiquer qu'un acteur peut faire tout ce qu'un autre peut faire en plus de ses propres cas d'utilisations.
+
+
+</p>
+
+<div class="row"><!-- OBLIGATOIRE -->
+        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+        <div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_Use.png"></div>
+	<div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_Use2.png"></div>
+</div>
+
+<h4>Diagramme de déploiement</h4>
+<p class="flow text">
+
+
+<h5>Rôle du diagramme de déploiement</h5>
+
+	Le diagramme de déploiement fait parti des diagrammes structuraux (statique), il représente :
+
+	- la disposition physique des ressources matérielles qui constituent le système et montre la répartition
+	des composants (élément logiciels) sur ces matériels.
+
+	- La nature des connexions de communication entre les différentes ressources matérielles.
+
+<h5>Les éléments du diagramme de déploiement</h5>
+
+	Les nœuds :
+
+	Un nœud est une ressource matérielle du système. En général, cette ressource possède au minimum
+	de la mémoire et parfois aussi des capacités de calcul (des ressources humaines ou des périphériques
+	sont des ressources modélisées par des nœuds).
+
+	Les chemins de communications :
+
+	Les différents nœuds qui apparaissent dans le diagramme de déploiement sont connectés entre eux
+	par des lignes qui symbolisent un support de communication → Ce sont les chemins de
+	communications.
+
+	Les artefacts :
+
+	L'artefact est le terme générique qui désigne n'importe quel élément produit du travail, c’est un
+	élément concret et existant dans le monde réel (document, exécutable, fichier, base de donnée…).
+	L’implémentation des modèles se fait sous forme d’artefacts. On dit que l’artefact est la
+	manifestation du modèle qu’il implémente.
+
+<h5>Exemple</h5>
+
+
+	http://www-inf.it-sudparis.eu/cours/CSC4002/EnLigne/Cours/CoursUML/Figures/diagramme_deploiement_artefact.png
+
+
+</p>
+
+<h4>Diagramme d'etat</h4>
+<p class="flow text">
+	Diagramme d'état
+
+Le diagramme d'état décrit les transitions entre les états et les actions que le système ou ses parties réalisent en réponse à un événement.
+
+Il s'agit d'une représentation séquentielle des états d'un système.
+
+Le diagramme d'état se compose :
+
+- d'états
+- de transitions
+- d'évènements
+- de conditions
+- d'effets
+- d'activités
+
+
+Etat - transition
+
+Un état (state) représente une situation d'un bloc fonctionnel pendant laquelle :
+
+- il satisfait une certaine condition
+- il exécute une certaine activité
+
+	exemple : http://www.siloged.fr/cours/STI2D_sysml/lib/NouvelElement26.png
+
+Les différents états sont reliés entre eux par des transitions.
+
+Une transition est liée à un événement. Lorsque l’événement se produit, il peut provoquer le changement d'état de la fonction qui lui est liée.  
+Une transition peut être complétée par une condition (guard) notée entre croche, des paramètres notés entre parenthèses et d'une activité.
+
+
+Evolution du diagramme d'état
+
+A la création de l'instance du graphe, un jeton virtuel est placé au point de départ. 
+Si les conditions de la transition le permettent, le jeton quitte le point de départ et rejoint le premier état. 
+L'entrée du jeton provoque l'exécution de la tâche d'entrée de l'état.
+Pendant le temps de présence du jeton, l'activité de l'état se réalise.
+Quand une transition pour sortir de l'état est vérifiée, le jeton quitte l'état et provoque l'exécution de l'activité de l'action de sortie.
+
+	exemple : http://www.siloged.fr/cours/STI2D_sysml/lib/NouvelElement27.png
+
+</p>
+
+<h4>Diagramme composants</h4>
+<p class="flow text">
+<div class="row"><!-- OBLIGATOIRE -->
+        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+        <div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_composants.png"></div>
+</div>
+Le diagramme de composants décrit l'organisation du système du point de vue des éléments logiciels comme les modules, des données ou encore d'éléments de configuration. Le diagramme de composants est utilisé dans le cadre de projets importants, qui nécessitent d’être séparés en différents composants. Ce diagramme permet de mettre en évidence les dépendances entre les composants.
+</p>
+
+<h4>Diagramme de séquence</h4>
+<p class="flow text">
+<div class="row"><!-- OBLIGATOIRE -->
+        <!-- Placez chaque image dans une div de classe 'col s<t>' où 't' est un chiffre de 1 à 12, 12 représentant 100% de la largeur -->
+        <div class="col s4"><img class="materialboxed" width="650" src="../img/Diagram_sequence.png"></div>
+</div>
+
+
+
+    Le diagramme de séquence décrit le déroulement de chaque cas d’utilisation.
+
+    Il montre la façon dont les différentes entités interagissent entre elles au sein d’une fonctionnalité.
+
+    Il offre une vision chronologique, en présentant les opérations réalisées par un acteur / une instance de classe.
+
+    Il est composé :
+
+D’objets D’interaction
+
+    Le système global est donc composé de plusieurs diagrammes de séquence.
+
+    Un objet mis en œuvre dans un diagramme de classe peut symboliser :
+
+Un acteur, humain ou non Le système, ou une partie de celui-ci
+
+    A chaque acteur / instance, est associée une ligne de vie.
+
+    La ligne de vie permet de relier les acteurs / instances du diagramme au travers de messages.
+
+    Une ligne de vie représente l’aspect temporel :
+
+Lecture du haut vers le bas Numérotation des messages
+
+    Au niveau du formalisme, on va avoir :
+
+L’acteurlui-même La période d’activité de l’objet (moment où les messages sont échangées) La ligne de vie
+
+    Opérations (ou messages) qui transite d’un acteur à l’autre au travers des lignes de vie.
+
+    Flèches horizontales :
+
+Ligne de vie de l’objet émetteur vers la ligne de vie de l’objet destinataire Numérotation séquentielle
+
+    Transmission d’information possible
+
+Paramètres transmis avec le message
+
+    Formalismedes différents types de messages :
+
+Synchrone Asynchrone De retour Envoie d’un message à soi-même
+
+    Lorsqu’un acteur envoie un message synchrone, il est bloqué jusqu’au moment où le destinataire accuse réception du message.
+
+    Lorsqu’un acteur envoie un message asynchrone, il peut continuer son activité, que le destinataire ait reçu (ou pas) le message.
+
+    Un message est récursif, lorsqu’il est envoyé par un acteur à soit même
+
+
+</p>
+
+<footer class="page-footer grey grey-text lighten-2 text-darken-2">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5>Mobile modeling</h5>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5>Menu</h5>
+				<ul>
+					<li><a href="comparatif_ios_android.html">Comparatif</a></li>
+					<li><a href="concept.html">Concept UML</a></li>
+					<li><a href="plateform_dev.html">Platerformes de dev</a></li>
+					<li><a href="outils.html">Outils de Maquette</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright grey-text text-darken-1">
+		<div class="container">
+			Made by Groupe Jaune !
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
+
