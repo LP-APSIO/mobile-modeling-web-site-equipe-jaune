@@ -69,3 +69,4 @@ Try the following command to check your git environment:
 - mailto:sassim.antoine@gmail.com[Antoine Sassim]
 - mailto:corentin.gthr@gmail.com[Corentin Gauthier]
 - mailto:alain.tinarrage@gmail.Com[Alain Tinarrage]
+- mailto:paul.maurette@gmail.com[Paul Maurette]
